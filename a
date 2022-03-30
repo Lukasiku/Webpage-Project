@@ -1,0 +1,50 @@
+[1mdiff --git a/Css.Stylesheets/stylesheet1.css b/Css.Stylesheets/stylesheet1.css[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 9bb176c..e8d3e7a 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -7,23 +7,7 @@[m
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+   <title>Document</title>[m
+ [m
+[31m-  <style>[m
+[31m-    [m
+[31m-    body {[m
+[31m-      background-color: rgb(255, 255, 255); }[m
+[31m-    [m
+[31m-    p {[m
+[31m-      font-family: veranda;[m
+[31m-      font-size: 20px;[m
+[31m-      line-height: 1.5;[m
+[31m-       }[m
+[31m-    [m
+[31m-[m
+[31m-    h1 {}[m
+[31m-[m
+[31m-    h2 {}[m
+[31m-    [m
+[31m-  </style>[m
+[32m+[m[32m<link rel="stylesheet" href="Styles/stylesheet1.css">[m
+ [m
+ </head>[m
+   [m
+[36m@@ -65,7 +49,7 @@[m
+         neque ornare aenean.</p>[m
+ [m
+       <figure>[m
+[31m-        <img src="images\rocks-gbcd949128_640.jpg" alt="Image of rocks" width="700">[m
+[32m+[m[32m        <img src="images\rocks-gbcd949128_640.jpg" alt="Image of rocks" width="600">[m
+         <figcaption>[m
+             Image by <a href="https://pixabay.com/photos/rocks-sand-sea-ocean-beach-shore-192988/">Frank Winkler</a> from <a href="Image by <a href="https://pixabay.com/users/frankwinkler-64960/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=192988">Frank Winkler</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=192988">Pixabay</a>"</a>[m
+         </figcaption>[m
+[36m@@ -73,7 +57,7 @@[m
+       <h2>Therefore...</h2>[m
+       <p>Integer eget aliquet nibh praesent tristique magna sit amet. Erat velit scelerisque in dictum non consectetur a erat nam. Et malesuada fames ac turpis egestas. Etiam tempor orci eu lobortis elementum. Sed nisi lacus sed viverra tellus in. At consectetur lorem donec massa sapien faucibus et. Tortor dignissim convallis aenean et tortor at risus viverra. Quis auctor elit sed vulputate mi sit. Dictum fusce ut placerat orci nulla pellentesque dignissim enim. Feugiat pretium nibh ipsum consequat nisl vel pretium. Sed vulputate odio ut enim blandit. Et netus et malesuada fames ac turpis egestas maecenas pharetra. Vitae et leo duis ut diam quam nulla. Scelerisque fermentum dui faucibus in ornare quam viverra orci. In nisl nisi scelerisque eu ultrices vitae auctor. Ut venenatis tellus in metus vulputate eu scelerisque. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Elementum tempus egestas sed sed risus pretium. Etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum. Diam ut venenatis tellus in metus vulputate eu.</p>[m
+     <figure>[m
+[31m-      <img src="images\beach-g2c8e36ad6_640.jpg" alt="Beach" width="350">[m
+[32m+[m[32m      <img src="images\beach-g2c8e36ad6_640.jpg" alt="Beach" width="600">[m
+       <figcaption>[m
+           Image by <a href="https://pixabay.com/photos/beach-sea-sunset-sun-sunlight-1751455/">Inactive account</a>[m
+       </figcaption>[m
