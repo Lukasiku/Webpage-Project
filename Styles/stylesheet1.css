@@ -1,14 +1,18 @@
 body {
-  background-color: #6f4e37; 
-}
-
-p {
+  background-color: #776356;
+  color: #e4d4c8; 
   font-family: veranda;
   font-size: 20px;
   line-height: 1.5;
-  width: 36em; 
+  
   color: #1d1e2c;
+}
+header,main,footer {
+  width: 36em; 
+  margin:0 auto;
+}
 
+p, h3 {
   background-color: #e4d4c8;
   border: 1px solid #e4d4c8;
   padding: 10px;
@@ -24,6 +28,3 @@ h1,h2,h3 {
 hr, h2 {
      clear: both; }
 
-div {
-
-    }
